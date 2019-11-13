@@ -1,0 +1,24 @@
+h1::before {
+    content: "Esto es ";
+    color: blue; 
+}
+
+h2::after {
+    content: " un after";
+    color: red; 
+}
+
+p::first-letter {
+    font-size: 250%;
+    }
+
+#name::placeholder {
+    background: black;    
+    color:red;
+    
+    }
+
+p.nota::marker {
+    content: "Note " counter(note-counter) ":";
+    text-align: left;
+    }
